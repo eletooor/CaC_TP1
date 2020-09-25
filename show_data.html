@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>Feedback Sent</title>
+<script src="https://kit.fontawesome.com/c95f1bb599.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header style="background-color: lightblue">
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="catalogo.html">Catalogo</a>
+      <a href="contacto.html">Contactanos</a>
+      <a href="sucursal.html">Sucursales</a>
+      <a href="registro.html">Registrate</a>
+    </nav>
+    <h1 style="text-align: center;">Herreria Speedy</h1> 
+  </header>
+
+<p align=center>&nbsp;</p>
+<h1 align=center><font size="+1">The following information has been sent as your
+  feedback:</font></h1>
+
+<table border="1" align=center width="350">
+  <tr>
+    <th align="center">Form Field</th>
+    <th align="center">Field Value</th>
+  </tr>
+
+<script language="javascript">
+var args = location.search.substr(1).split('&');
+for (var i = 0; i < args.length; ++i) {
+  var parts = args[i].split('=');
+  if (parts != null) {
+    var field = parts[0];
+    var value = parts[1];
+    if (value == null) {
+      value = "null"
+    }
+    else {
+      value = '"' + unescape(value.replace(/\+/g, ' ')) + '"';
+    }
+
+    document.writeln('<tr><td align="center">' + field + '</td>');
+    document.writeln('<td align="center">' + value + '</td></tr>');
+  }
+}
+</script>
+
+<noscript>
+<tr><td>
+<p>You need to turn on Javascript in your browser.</p>
+
+<p>In Microsoft Internet Explorer 4 or greater:</p>
+<ul>
+<li>From the "Tools" menu (in IE 4, it's the "View" menu), select "Internet Options".</li>
+<li>Click on the "Security" tab.</li>
+<li>Click on the "Custom Level" button. (In IE 4, select "Custom"
+and then click on "Settings...".)</li>
+<li>Under "Active scripting" make sure "Enable" is selected.</li>
+</ul>
+
+<p>In Netscape version 4 or greater:</p>
+<ul>
+<li>From the <b>Edit</b> menu, select <b>Preferences</b>.</li>
+<li>In the <b>Category</b> list on the left, click on the word "Advanced".</li>
+<li>In the panel on the right, make sure "Enable JavaScript" is checked.</li>
+<li>Click the <b>OK</b> button.</li>
+</ul>
+
+</td></tr>
+</noscript>
+
+</table>
+<br>
+<footer style="background-color: lightblue; text-align: center;">
+    <a href="https://www.facebook.com/herreria.speedy"><i class="fab fa-facebook-square"></i></a>
+    <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2Fherreriaspeedy%3Figshid%3Dtq244yivkdxl%26fbclid%3DIwAR1nyw7vUzMcc7-ukNc-_JS1zHBqiera-6n99ICsoQ4WKDJhJyy7PHgA5-M&h=AT2JbsyQtXNUKonmwfGV9A65OIqxNxlepYoo70rK85oQ8IH-5mJ1VLAGhHogrAk6-O9-eTALmakf3bIq9b9tDfKJwO_RerOJAQJIcfjPwSsG0rKwQmZ2tSy-oNfeshjiswa_&__tn__=-UK-R&c[0]=AT3JYeOggadeD2KfJ_drMtj18AhkdOQ6s0Mu7kes45lvqkazj4pF-4RYGHfvR1TMTAPVgQi9bd10WjahjzVzldCEeA0_0cvcVT043-myjpY4ytgCJxxzuvfnyifgDWt8enuGKt7k6GPqrs--0HlDJL-DqSpI9YEQbRm_Oh65MzPlFAyRqo4fF0KtAZJ5_GA"><i class="fab fa-instagram-square"></i></a>
+    <a href="whatsapp://send?text=Hola, Index.pe&phone=+54 9 11 5040 7100&abid=+54 9 11 5040 7100"><i class="fab fa-whatsapp-square"></i></a>
+    <a href="mailto:herreriaspeedy@Hotmail.com"><i class="fas fa-envelope"></i></a>
+    <br><br>
+    <p>Todos los derechos reservados</p>
+  </footer>
+
+
+</body>
+</html>
